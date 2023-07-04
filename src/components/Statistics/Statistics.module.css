@@ -1,0 +1,38 @@
+.statistics {
+    padding: 20px;
+    background-color: rgb(56, 117, 15);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    max-width: 500px;
+        margin: 50px auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgb(60, 19, 80);
+}
+
+
+.stat_list {
+    display: inline-block;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.statlist__item {
+    display: inline-block;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.statlist__label {
+    display: block;
+    padding: 10px;
+}
+
+.statlist__percentage {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+}

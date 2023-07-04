@@ -1,0 +1,73 @@
+.profile {
+    max-width: 500px;
+    margin: 50px auto;
+    width: 100%;
+    box-shadow: 5px 5px 15px 5px rgb(120, 115, 117);
+}
+.description {
+    text-align: center;
+    margin: 0 auto;
+
+    &__avatar {
+        max-width: 200px;
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    &__name {
+        font-size: 24px;
+        font-weight: 700;
+        color: black;
+    }
+
+    &__location {
+        margin: 20px 2px;
+        font-size: 16px;
+        color: gray;
+    }
+
+    &__tag {
+        font-size: 16px;
+        color: gray;
+
+    }
+
+    &__tag:not(:last-child) {
+        margin: 10px 2px;
+    }
+
+}
+
+.stats {
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+     background-color: rgb(148, 147, 147, 0.3);
+}
+.colums {
+    display: inline-block;
+    padding: 0 10px;
+    list-style: none;
+
+    &:not(:last-child) {
+        margin: 0 10px;
+    }
+
+
+    &__quantity {
+        font-size: 18px;
+        color: black;
+        margin: 0 auto;
+        display: block;
+        font-weight: 700;
+    }
+
+    &__label {
+        margin: 0 auto;
+        display: block;
+        color: gray;
+        font-weight: 600;
+    }
+
+}
